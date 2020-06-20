@@ -1,0 +1,6 @@
+model = {
+	lods = {
+		{"wellington_bh-7.edm",20000.000000};
+	};
+	collision_shell = "wellington_bh-7_collision.edm";
+}

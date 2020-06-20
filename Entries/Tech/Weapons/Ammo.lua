@@ -1,0 +1,52 @@
+-- 380 mm HE Shell based on 127 mm HE for template with alterations. Source: https://en.wikipedia.org/wiki/38_cm_SK_C/34_naval_gun
+declare_weapon({
+	category = CAT_SHELLS,
+	name = "380mm_HE",
+	user_name = _("380mm HE"),
+    model_name      = "pula",
+    mass            = 69.0,
+    explosive       = 69.0,
+    v0              = 1050.0,
+    Dv0             = 0.0023,
+    Da0             = 0.0005,
+    Da1             = 0.0002,
+    life_time       = 100.0,
+    caliber         = 380.0,
+
+    s               = 0.0,
+    j               = 0.0,
+    l               = 0.0,
+    charTime        = 0,
+    cx              = {0.0,0.52,0.67,0.14,1.76},
+    k1              = 7.6e-10,
+    tracer_off      = 100,
+    scale_tracer    = 0,
+    rotation_freq   = 0,
+    cartridge       = 0,
+})
+
+declare_weapon({
+	category = CAT_SHELLS,
+	name = "SK_C_33_105_HE",
+	user_name = _("105mm HE"),
+    model_name      = "pula",
+    mass            = 14.7,
+    explosive       = 14.7, -- 105mm
+    v0              = 881.0,
+    Dv0             = 0.0027,
+    Da0             = 0.00036,
+    Da1             = 0.0009,
+    life_time       = 100.0,
+    caliber         = 105.0,
+
+    s               = 0.0,
+    j               = 0.0,
+    l               = 0.0,
+    charTime        = 0,
+    cx              = {1.3,0.60,0.75,0.16,2.20},
+    k1              = 9.0e-10,
+    tracer_off      = 4,
+    scale_tracer    = 1,
+    rotation_freq   = 0,
+    cartridge       = 0,
+})

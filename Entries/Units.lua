@@ -1,0 +1,10 @@
+
+dofile(current_mod_path .. '/Entries/Tech/Navy/A69.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Balzam.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Bh-7.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Bh-7_naval.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Ghadir.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Tnc-45.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Wellington_bh-7_TR.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Wellington_bh-7_naval_TR.lua')
+dofile(current_mod_path .. '/Entries/Tech/Navy/Yukon.lua')
